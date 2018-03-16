@@ -1,0 +1,170 @@
+section.forms {
+
+    div[class*="col-"] {
+        margin-bottom: 30px;
+    }
+
+    header {
+        padding: 30px 0;
+    }
+    .form {
+        background: #fff;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        height: 100%;
+        .form-header {
+            padding: 10px 20px;
+            background: #fafafa;
+        }
+        .form-body {
+            padding: 20px;
+        }
+    }
+    .line {
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px dashed #eee;
+        margin: 20px 0 30px;
+    }
+    .form-group {
+        margin-bottom: 0;
+    }
+    .btn-primary, .btn-secondary {
+        font-weight: 300;
+        font-size: 0.75em;
+        border-radius: 0;
+    }
+
+}
+
+
+/*
+* ==========================================================
+*     FORMS GENERAL
+* ==========================================================
+*/
+section.forms {
+    p {
+        font-size: 0.8em;
+        color: #999;
+    }
+
+    input.form-control {
+        border-radius: 0;
+
+        @include placeholder {
+            font-size: 0.75em;
+            font-weight: 300;
+            color: #aaa;
+            font-family: $font-family-base;
+        }
+    }
+
+    .select {
+        margin-bottom: 20px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    select {
+        border-radius: 0;
+        border-color: #ddd;
+        font-weight: 300;
+        font-family: $font-family-base;
+
+
+        option {
+            color: #999;
+            font-weight: 300;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+        div[class*='col-'] {
+            margin-bottom: 10px;
+        }
+    }
+
+    label {
+        font-size: 0.8em;
+
+    }
+    small, span {
+        font-size: 0.65em;
+        color: #999;
+    }
+
+    label span, label small {
+        font-size: 0.8em;
+    }
+
+    .input-group-addon {
+        border-radius: 0;
+        background: #f5f5f5;
+    }
+    span.input-group-addon {
+        font-size: 0.8em;
+        font-weight: 300;
+        background: none;
+    }
+    .input-group-btn {
+        font-size: 1em;
+        button.dropdown-toggle {
+            background: #eee;
+            font-size: 0.8em;
+            color: #777;
+            box-shadow: none;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            padding: 10px;
+            font-size: 0.8em;
+            color: #777;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                padding: 4px 0;
+            }
+        }
+    }
+
+}
+
+/* FORMS MEDIAQUERIES -------------------------- */
+
+@include media-breakpoint-up(md) {
+    section.forms {
+        h2 {
+            font-size: 1rem;
+        }
+        input.form-control {
+            border-radius: 0;
+
+            @include placeholder {
+                font-size: 0.85em;
+            }
+        }
+        p {
+            font-size: 0.9em;
+        }
+
+        label {
+            font-size: 0.9em;
+
+        }
+        small, span {
+            font-size: 0.8em;
+            color: #999;
+        }
+
+        label span, label small {
+            font-size: 0.9em;
+        }
+
+        .btn-primary, .btn-secondary {
+            font-size: 0.95em;
+        }
+    }
+}

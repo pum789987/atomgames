@@ -1,0 +1,32 @@
+
+/*
+=========================================
+=========================================
+
+Bootstrapious Dashboard template 1.1
+
+=========================================
+========================================= */
+
+
+// functions.scss - Bootstrap functions
+@import "modules/functions";
+// variables-custom.scss - to change colour variant, rounded corners, etc.
+@import "modules/variables-custom";
+// bootstrap mixins
+@import "modules/mixins";
+// custom mixins
+@import "modules/mixins-custom";
+// general styling
+@import "modules/general";
+// charts page styling
+@import "modules/charts";
+// Dorms  page styling
+@import "modules/forms";
+// login  page styling
+@import "modules/login";
+// demo styling
+@import "modules/demo"; 
+
+// bootstrap base stylesheet overrides
+@import "theme";

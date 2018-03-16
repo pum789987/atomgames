@@ -1,0 +1,19 @@
+
+.bb-1{
+    border-bottom: 1px solid #e9ecef ;
+}
+.br-1{
+    border-right: 1px solid lightgray;
+}
+.bl-1{
+    border-left: 1px solid #e9ecef;
+}
+
+.bt-1{
+    border-top: 1px solid #e9ecef;
+}
+.bx-1{
+    border-right: 1px solid #e9ecef;
+    border-left: 1px solid #e9ecef;
+}
+
